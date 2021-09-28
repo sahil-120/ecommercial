@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: white;
+}
+.header-1 {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(../img/Rectangle\ Copy.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.header-1 .logo {
+  padding-left: 15px;
+  margin-top: 10px;
+}
+.header-1 .navbar {
+  padding-right: 100px;
+  margin-top: 30px;
+}
+.header-1 .navbar ul li {
+  display: inline;
+  list-style-type: none;
+}
+.header-1 .navbar ul li a {
+  text-decoration: none;
+  padding: 31.35px;
+  color: black;
+  font-size: 9.6px;
+  font-weight: bold;
+  font-family: Montserrat;
+  text-transform: uppercase;
+}
+.sec-2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.sec-2 .dress-1 {
+  padding-left: 80px;
+}
+.sec-2 .dress-1 .img-dress1 {
+  width: 351px;
+}
+.sec-2 .dress-2 .img-dress2 {
+  width: 351px;
+}
+.sec-2 .dress-3 .img-dress3 {
+  width: 351px;
+}
